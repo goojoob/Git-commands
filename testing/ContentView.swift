@@ -1,7 +1,4 @@
 //
-//  ContentView.swift
-//  testing
-//
 //  Created by Antonio Rodriguez Cia on 1/11/21.
 //
 
