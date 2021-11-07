@@ -53,3 +53,13 @@ git push --set-upstream origin NombreBranch
 git fetch
 git pull
 ```
+
+<br/>
+
+## Clonar repositorio existente
+
+`situarse en la carpeta superior, creará un nuevo directorio``
+
+```git
+git clone https://github.com/goojoob/testing
+```
