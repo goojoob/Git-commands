@@ -58,7 +58,7 @@ git pull
 
 ## Clonar repositorio existente
 
-`situarse en la carpeta superior, creará un nuevo directorio``
+`situarse en la carpeta superior, creará un nuevo directorio`
 
 ```git
 git clone https://github.com/goojoob/testing
