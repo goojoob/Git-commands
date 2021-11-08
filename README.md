@@ -3,7 +3,7 @@ Common git instructions
 
 <br/>
 
-## Create local and remote repository
+## Create local and remote Repository
 
 `first create .gitignore in the folder`
 
@@ -59,7 +59,7 @@ git log
 
 <br/>
 
-## Create local and remote branch
+## Local and remote Branches
 
 `create local <branch>`
 
@@ -102,6 +102,14 @@ git checkout <branch>
 
 ```git
 git merge <branch>
+```
+
+`delete <branch> locally and remote`
+
+```git
+git branch -d <branch>
+
+git push <remote> --delete <branch>
 ```
 
 <br/>
