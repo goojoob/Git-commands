@@ -1,11 +1,11 @@
-# Testing
-Testing Swift
+# Git Cheat Sheet
+Common git instructions
 
 <br/>
 
-## Crear repositorio desde línea de comandos
+## Create local and remote repository
 
-`copiar primero en el directorio el .gitignore`
+`first create .gitignore in the folder`
 
 ```git
 git init
@@ -15,7 +15,7 @@ git add *
 git commit -m "initial commit"
 ```
 
-`crear repositorio vacío en GitHub`
+`then create empty repository in GitHub web`
 
 ```git
 git remote add origin https://github.com/goojoob/testing
@@ -29,27 +29,27 @@ git pull
 
 <br/>
 
-## Añadir ficheros al stage y commits
+## Stage and Commit
 
-`añadir ficheros/directorios modificados al stage`
+`stage all changes in <directory>/<file>`
 
 ```git
-git add directory/file/regularexp
+git add <directory>/<file>/regularexp
 ```
 
-`commit añadiendo ficheros al stage`
+`commit staging`
 
 ```git
 git commit -a
 ```
 
-`commit directo sin abrir pantalla para nombre`
+`commit with <message> instead opening text editor`
 
 ```git
-git commit -m "texto commit"
+git commit -m <message>
 ```
 
-`ver toda la historia de commits`
+`display entire commit history`
 
 ```git
 git log
@@ -57,18 +57,24 @@ git log
 
 <br/>
 
-## Crear branch local y remota
+## Create local and remote branch
 
-`crear branch loal`
+`create local <branch>`
 
 ```git
-git checkout -b NombreBranch
+git checkout -b <branch>
 ```
 
-`crear branch remota`
+`list all branches`
 
 ```git
-git push origin NombreBranch
+git branch
+```
+
+`push the <branch> to <remote>`
+
+```git
+git push <remote> <branch>
 ```
 
 `track the branch`
@@ -82,11 +88,17 @@ git fetch
 git pull
 ```
 
+`merge <branch> in the current`
+
+```git
+git merge <branch>
+```
+
 <br/>
 
-## Clonar repositorio existente
+## Clone existing repository
 
-`situarse en la carpeta superior, creará un nuevo directorio`
+`locate in the root folder, it will create a new folder`
 
 ```git
 git clone https://github.com/goojoob/testing
