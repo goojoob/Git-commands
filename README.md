@@ -15,12 +15,14 @@ git add *
 git commit -m "initial commit"
 ```
 
-`then create empty repository in GitHub web`
+`then create empty repository in <GitHub web>`
+
+`<remote> is commonly named as origin`
 
 ```git
-git remote add origin https://github.com/goojoob/testing
+git remote add <remote> <github web>
 
-git push --set-upstream origin main
+git push --set-upstream <remote> main
 
 git fetch
 
@@ -34,7 +36,7 @@ git pull
 `stage all changes in <directory>/<file>`
 
 ```git
-git add <directory>/<file>/regularexp
+git add <directory>/<file>/<regularexp>
 ```
 
 `commit staging`
@@ -77,11 +79,13 @@ git branch
 git push <remote> <branch>
 ```
 
-`track the branch`
+`track the <branch>`
 
 ```git
-git push --set-upstream origin NombreBranch
+git push --set-upstream <remote> <branch>
 ```
+
+`fetch and merge the remote branch into the local`
 
 ```git
 git fetch
