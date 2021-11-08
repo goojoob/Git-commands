@@ -29,6 +29,34 @@ git pull
 
 <br/>
 
+## Añadir ficheros al stage y commits
+
+`añadir ficheros/directorios modificados al stage`
+
+```git
+git add directory/file/regularexp
+```
+
+`commit añadiendo ficheros al stage`
+
+```git
+git commit -a
+```
+
+`commit directo sin abrir pantalla para nombre`
+
+```git
+git commit -m "texto commit"
+```
+
+`ver toda la historia de commits`
+
+```git
+git log
+```
+
+<br/>
+
 ## Crear branch local y remota
 
 `crear branch loal`
