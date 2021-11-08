@@ -92,6 +92,12 @@ git fetch
 git pull
 ```
 
+`change current <branch>`
+
+```git
+git checkout <branch>
+```
+
 `merge <branch> in the current`
 
 ```git
