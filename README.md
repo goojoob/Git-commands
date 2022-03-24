@@ -59,6 +59,24 @@ git log
 
 <br/>
 
+## Tagging versions
+
+`Annotated tag to a commit already done`
+
+```git
+git tag -a v1.4 -m "my version 1.4"
+```
+
+`Show tag version`
+
+```git
+git show v1.4
+```
+
+`Do push after tagging`
+
+<br/>
+
 ## Local and remote Branches
 
 `create local <branch>`
