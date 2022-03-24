@@ -75,6 +75,10 @@ git show v1.4
 
 `Do push after tagging`
 
+```git
+git push --tag
+```
+
 <br/>
 
 ## Local and remote Branches
