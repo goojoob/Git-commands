@@ -65,6 +65,12 @@ git log
 
 ```git
 git tag -a v1.4 -m "my version 1.4"
+git tag v1.4
+```
+
+`Show tags`
+```git
+git tag
 ```
 
 `Show tag version`
