@@ -79,6 +79,16 @@ git show v1.4
 git push --tag
 ```
 
+`Delete local tagname`
+```git
+git tag -d tagname
+```
+
+`Delete remote tagname`
+```git
+git push --delete origin tagname
+```
+
 <br/>
 
 ## Local and remote Branches
