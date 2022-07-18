@@ -1,5 +1,5 @@
 # Git Cheat Sheet
-Common git instructions
+Common git instructions i use in my day to day
 
 <br/>
 
